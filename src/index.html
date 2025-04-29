@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        .container-section {
+            border-radius: 12px;
+            background: linear-gradient(to top left, #1f2937, #374151);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border: 1px solid transparent;
+            /* Make the border transparent by default */
+            transition: border-color 0.3s ease;
+            /* Add a smooth transition for the border color */
+        }
+
+        .container-section:hover {
+            border-color: white;
+            /* Change the border color to white on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-700 to-gray-500 bg-no-repeat bg-cover min-h-screen">
+    <header class="text-center py-16">
+        <h1 class="text-4xl font-bold text-gray-300">Agustin Barajas</h1>
+        <p class="text-lg mt-4 text-gray-400">
+            <a href="mailto:agustincards14@gmail.com" class="hover:underline">agustincards14@gmail.com</a> | 562 964
+            6491
+        </p>
+    </header>
+    <!-- style="background: linear-gradient(to bottom, #054425, #047857); -->
+    <section class="py-16">
+        <div class="container px-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+            <a href="https://statpad.io" target="_blank" rel="noopener noreferrer">
+                <div class="container-section relative">
+                    <div class="absolute inset-0  bg-no-repeat opacity-33"
+                        style="background-image: url('./images/icon.svg'); background-size: 100%; background-position: center ">
+                    </div>
+                    <div class="relative z-10">
+                        <h2 class="text-2xl font-semibold mb-6 text-white">Statpad, <i>founder</i></h2>
+
+                        <p class="text-gray-200">
+                            Statpad is a brand-new hybrid mobile application that allows soccer teams to track, analyze,
+                            and
+                            share
+                            their own match stats.
+                        </p>
+                        <div class="mt-6">
+                            <img src="./images/screenshots_hd.png" alt="Statpad Preview"
+                                class="w-full h-auto rounded-lg shadow-lg">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="container-section">
+                <h2 class=" text-2xl font-semibold mb-6 text-white">Portfolio</h2>
+                <p class="text-gray-200">
+                    Showcase your projects or achievements here. Add links, images, or descriptions of your work.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
